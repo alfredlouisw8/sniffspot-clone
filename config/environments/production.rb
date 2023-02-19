@@ -31,6 +31,9 @@ Rails.application.configure do
   # Store uploaded files on the local file system (see config/storage.yml for options).
   config.active_storage.service = :local
 
+  config.active_storage.default_url_options = { :host => "https://sniffspot-clone-backend.herokuapp.com" }
+  Rails.application.routes.default_url_options[:host] ='https://sniffspot-clone-backend.herokuapp.com'
+
   # Mount Action Cable outside main process or domain.
   # config.action_cable.mount_path = nil
   # config.action_cable.url = 'wss://example.com/cable'

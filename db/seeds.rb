@@ -6,4 +6,4 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
-Spot.create(name: 'Spot 1', description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.', price: 10)
+Spot.create(title: 'Spot 1', description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.', price: 10)
