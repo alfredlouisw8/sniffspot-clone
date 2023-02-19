@@ -42,6 +42,11 @@ GEM
       activemodel (>= 4.1, < 7.1)
       case_transform (>= 0.2)
       jsonapi-renderer (>= 0.1.1.beta1, < 0.3)
+    active_storage_validations (1.0.3)
+      activejob (>= 5.2.0)
+      activemodel (>= 5.2.0)
+      activestorage (>= 5.2.0)
+      activesupport (>= 5.2.0)
     activejob (6.0.6.1)
       activesupport (= 6.0.6.1)
       globalid (>= 0.3.6)
@@ -201,6 +206,7 @@ PLATFORMS
 
 DEPENDENCIES
   active_model_serializers (~> 0.10.0)
+  active_storage_validations
   bootsnap (>= 1.4.2)
   byebug
   factory_bot_rails

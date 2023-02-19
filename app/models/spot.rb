@@ -6,5 +6,7 @@ class Spot < ApplicationRecord
   validates :title, presence: true
   validates :description, presence: true
   validates :price, presence: true
+  validates :images, content_type: [:png, :jpg, :jpeg, :gif, :webp],
+                    size: { less_than: 5.megabytes, message: "exceeds 5 MB" }
 
 end
